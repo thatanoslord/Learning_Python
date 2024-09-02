@@ -26,3 +26,21 @@ also we can print text and variables together :
     age : 25
     print("My name is", name, "and I'm", age, "y.o")
 console: My name is Moussa and I'm 25 y.o
+
+Formatting with f-strings (Python 3.6+):
+
+while we use formatting with print we start with (f"") and we use curly brackets{}.
+
+    name = "Moussa" 
+    age = 25
+    print(f"My name is {name} and I'm {age} years old.")
+console: My name is Moussa and I'm 25 years old.
+
+an other way of formatting. we use ("{}".format())
+    
+    printf("My name is {} and I'm {} years old.".format(name, age))
+console: My name is Moussa and I'm 25 years old.
+
+
+
+
