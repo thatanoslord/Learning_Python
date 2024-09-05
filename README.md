@@ -70,3 +70,10 @@ example: print('''hello,
         console: hello,
                 world
 
+string concatenating:
+where strings can be concatenated using the "+" operator.
+    greeting = "hello"
+    name = "Moussa"
+    message = greeting + name
+    printf(message)
+    console: hello Moussa
