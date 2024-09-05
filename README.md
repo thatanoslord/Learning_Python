@@ -77,3 +77,21 @@ where strings can be concatenated using the "+" operator.
     message = greeting + name
     printf(message)
     console: hello Moussa
+
+string Replication:
+strings can be replicated using the * operator.
+repeated = " " * 10
+example: print("hello " * 5)
+    console: hello hello hello 
+
+string Methods: strings have many built-in methods for manipulation, such as 
+    upper() : printf(name.upper()) = MOUSSA
+    lower() : prinf(name.upper()) moussa
+    capitalize() : printf(name.capitalize()) = Moussa
+    replace() : printf(name.replace("moussa", "Moussa")) = Moussa Sabbar
+    split() : fruits = "apple orange , berries" , printf(fruits.split())
+    console: ['apple', 'orange', 'berries'] 
+    the split method is changing the variable to an array
+    we can alsodo this :print(fruits.split() [1])
+    console: orange
+
