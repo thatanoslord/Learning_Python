@@ -57,3 +57,16 @@ Or you can use the var "age" to be a string like this
 N.B: printf() function automatically adds newline character at the end by default, I would want to print without a newline, I can use end 
 parameter:
 example : print("hello, world" end=" ")
+
+Creating strings:
+strings can be created while using either single quotes (''), or double quotes (""),
+example:  single_quoted = 'Hello world' 
+          double_quoted = "Hello world"
+
+Multi line strings:
+is using triple quotes ''' ''' and it is used to create multilines .
+example: print('''hello,
+                world''')
+        console: hello,
+                world
+
