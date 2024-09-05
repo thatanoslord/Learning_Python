@@ -48,5 +48,8 @@ your write like this print(""+variable+""+variable), but intigers should be chan
     age = 25
     print("My name is " +name+ "and I'm" +str(age) "years old.")
 and the console will show this : My name is Moussa and I'm 25 years old.
-    
 
+Or you can use the var "age" to be a string like this 
+    age = '25' instead of age = 25
+    print("My age is "+age) 
+    console: My age is 25
