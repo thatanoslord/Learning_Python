@@ -41,6 +41,12 @@ an other way of formatting. we use ("{}".format())
     printf("My name is {} and I'm {} years old.".format(name, age))
 console: My name is Moussa and I'm 25 years old.
 
-
-
+concatenating strings and variables :
+your write like this print(""+variable+""+variable), but intigers should be changed to string format by doing this:
+"str(int)"
+    name = Moussa
+    age = 25
+    print("My name is " +name+ "and I'm" +str(age) "years old.")
+and the console will show this : My name is Moussa and I'm 25 years old.
+    
 
