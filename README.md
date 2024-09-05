@@ -53,3 +53,7 @@ Or you can use the var "age" to be a string like this
     age = '25' instead of age = 25
     print("My age is "+age) 
     console: My age is 25
+
+N.B: printf() function automatically adds newline character at the end by default, I would want to print without a newline, I can use end 
+parameter:
+example : print("hello, world" end=" ")
