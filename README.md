@@ -95,3 +95,6 @@ string Methods: strings have many built-in methods for manipulation, such as
     we can alsodo this :print(fruits.split() [1])
     console: orange
 
+string length: this function is used to know how many char are in a string : len(var_name)
+    print(len(name))
+    console: # 6
