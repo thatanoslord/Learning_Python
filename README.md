@@ -98,3 +98,19 @@ string Methods: strings have many built-in methods for manipulation, such as
 string length: this function is used to know how many char are in a string : len(var_name)
     print(len(name))
     console: # 6
+
+Indexing and slicing strings:
+
+indexing : is accessing characters in a str 
+    languag = "Python"
+    first_char = language[0] # 'P'
+    last_char =  language[] # 'n'
+
+slicing : allows you to extract a portion of a string.
+    phrase = "Python is fun"
+    slice = phrase[:] = # Python is fun 
+    second_slice = phrase[1:7] = # ython is
+    third_slice = phrase[:6] = # Python 
+ 
+ the func is print(phrase[:])
+ console : Python is fun
