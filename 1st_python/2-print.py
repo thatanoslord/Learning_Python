@@ -1,2 +1,12 @@
-#!/bin/bash/python3
-print('\"Programming is like building a multilingial puzzle\n"')
+print("whats your age")
+
+
+def int(param):
+    pass
+
+
+age = int(input("put your age here"))
+if age >= 18:
+    print("you can visit our website")
+else:
+    print("you can't sorry")

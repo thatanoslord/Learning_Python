@@ -1,8 +1,8 @@
-#!/usr/bin/python3
-word = "Holberton"
-word_first_3 = word[:3]
-word_last_2 = word[-2:]
-middle_word = word[1:-1]
-print(f"First 3 letters: {word_first_3}")
-print(f"Last 2 letters: {word_last_2}")
-print(f"Middle word: {middle_word}")
+print("1 to 10")
+mood = int(input("from 1 to 10 rank your mood"))
+if mood > 5:
+    print("happy")
+elif mood == 5:
+    print("normal")
+else:
+    print("sad")
