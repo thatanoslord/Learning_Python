@@ -1,6 +1,5 @@
-total_second = input("Type the number of seconds: \n")
-minutes = int(total_second) // 60
-left_sec = int(total_second) % 60
-hours = minutes // 60
-left_min = minutes % 60
-print("This course is:", hours, "hours, ", left_min, "minutes and ", left_sec, "seconds long" )
+total_second = int(input("Type the number of seconds: \n"))
+hours = total_second // 3600
+minutes_left = (total_second % 3600) // 60
+second_left = total_second % 60
+print(f"{total_second} seconds is equivalent to : {hours} hours, {minutes_left} minutes and {second_left}" )
