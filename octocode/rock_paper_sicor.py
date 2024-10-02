@@ -91,7 +91,7 @@ if choose == "Rock" or choose == "Paper" or choose == "Scissors":
                   {rock}
                   computer chose
                   {scissors}
-                  you wo""")
+                  you won""")
         elif choose == "Paper":
             print(f"""You chose:
                   {paper}
