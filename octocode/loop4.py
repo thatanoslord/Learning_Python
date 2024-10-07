@@ -1,7 +1,6 @@
 quest = input("Enter the names of attendees separated with coma(,): ")
 person =[]
 person.extend(quest.split(", "))
-
 for x in person:
     print(x)
     response =input ("Is this person attending(Yes/No)").capitalize()
