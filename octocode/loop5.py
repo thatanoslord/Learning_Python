@@ -13,6 +13,11 @@ for task in all_tasks:
     else:
             print("print either 'yes' or 'no'")
     print("-------------------------------------------------")
+progress=input("Do you want to see your progress? (yes/no): ").lower()
+if progress =="yes":
+    print(f"*********the tasks you have finished are:*********\n{finished_task}\n")
+    print(f"********* the tasks you are still ongoing :*********\n{ongoing_task}\n")
+else:
+    input("click enter to exit.")
     
-print(f"*********the tasks you have finished are:*********\n{finished_task}\n")
-print(f"********* the tasks you are still ongoing :*********\n{ongoing_task}\n")
+
