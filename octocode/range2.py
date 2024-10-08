@@ -1,19 +1,15 @@
-
 print("********* Welcome to iShop calculator *********\n")
-
 items=int(input("How many items are there in your basket today? "))
 basket= []
 whole_price=[]
 if items > 0:
     print("\nlet's get to count them....\n")
-
     for i in range(1,items+1):
         item=input(f"\nplease tell me the name of the item number {i}, give it's name: ")
         basket.append(item)
 
         price = float(input(f"\nwhat is the price of the {item}: "))
         whole_price.append(price)
-
     quest=input("would like to see your entire basket items?(Yes or no): ").lower()
     if quest == "yes":
         print(f"\nthis is your basket {basket}")
