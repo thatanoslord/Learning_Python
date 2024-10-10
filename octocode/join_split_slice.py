@@ -6,5 +6,6 @@ for i in range(len(names)):
     i = names[i].split(" ")
     first_letter.append(f"{i[0][0]}.{i[1][0]}") 
     print(i)
+print("abbreviated Names:\n")
 print(separator.join(first_letter)) 
 
